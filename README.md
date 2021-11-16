@@ -18,6 +18,10 @@ Note: to delete the stack you may need to detach Certificate and Thing first via
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## Note
+
+After deploy you can check the Amplify Environment Variables (via AWS web console). These can be used to connect your frontend app and so consume MQTT via websockets.
+
 ## Useful commands
 
 - `npm run build` compile typescript to js
